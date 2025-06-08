@@ -1,0 +1,9 @@
+name: notification_listener_service
+version: 0.0.1
+description: Example NotificationListenerService plugin using platform channels
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.notification_listener_service
+        pluginClass: NotificationListenerPlugin
